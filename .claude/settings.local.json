@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv sync:*)",
+      "Bash(~/.local/bin/uv --version)",
+      "Bash(/c/Users/peper/.local/bin/uv --version)",
+      "Bash(powershell.exe -Command \"Get-Command uv -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell.exe -Command \"irm https://astral.sh/uv/install.ps1 | iex\")",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command \"irm https://astral.sh/uv/install.ps1 | iex\")",
+      "Bash(UV=\"/c/Users/peper/.local/bin/uv\")",
+      "Bash(\"$UV\" --version)",
+      "Bash(\"$UV\" sync:*)",
+      "Bash(\"$UV\" run:*)",
+      "Bash(\"$UV\" run python -c \":*)",
+      "WebFetch(domain:www.afm.nl)"
+    ]
+  }
+}
